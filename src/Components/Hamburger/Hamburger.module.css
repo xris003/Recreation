@@ -1,0 +1,42 @@
+.hamburgerWrapper {
+    grid-template-columns: 2fr 1fr 2fr; 
+    width: 393px;
+    height: 378px;
+    background: white;
+    border-radius: 1rem;
+}
+
+.hamburger{
+    margin-bottom: 2rem;
+}
+
+.menu{
+    margin-top: 5rem;
+    display: grid;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    font-weight: 150px;
+
+}
+
+.menu>li:hover {
+    color: var(--pink);
+    cursor: pointer;
+}
+
+.d_icon{
+    display: grid;
+    flex-direction: column;
+}
+
+.cancel{
+    background-color: #0000ae;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
