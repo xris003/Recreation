@@ -6,7 +6,7 @@ import Virtual from "./Components/Virtual/Virtual";
 import Products from "./Components/Products/Products";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import Footer from "./Components/Footer/Footer";
-import Hamburger from "./Components/Hamburger/Hamburger";
+
 
 function App() {
   return (
@@ -18,7 +18,6 @@ function App() {
       <Products />
       <Testimonial />
       <Footer />
-      <Hamburger />
     </div>
   );
 }
